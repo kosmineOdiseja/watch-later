@@ -1,0 +1,46 @@
+{
+  "content": [
+    {
+      "id": "1",
+      "type": "youtube",
+      "note": "labai įdomus video",
+      "content": "https://www.youtube.com/embed/QH2-TGUlwu4"
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "note": "labai įdomus tekstas, kur galiu išmokti daug",
+      "content": "https://github.com/kosmineOdiseja/doitlater-frontend"
+    },
+    {
+      "type": "Youtube link",
+      "content": "https://www.freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react/",
+      "note": "What I should know before learning React.Js",
+      "id": "TuztDyH"
+    },
+    {
+      "type": "Youtube link",
+      "content": "https://www.youtube.com/watch?v=6LyagkoRWYA&ab_channel=TraversyMedia",
+      "note": "Axios tutorial",
+      "id": "dJYtmG3"
+    },
+    {
+      "type": "Youtube video",
+      "content": "https://www.youtube.com/watch?v=GSHBhIqylxM&ab_channel=Bitfumes",
+      "note": "Video for typing ",
+      "id": "XC8UBmb"
+    },
+    {
+      "type": "Youtube video ",
+      "content": "https://www.youtube.com/watch?v=ntMezAkFPYM&ab_channel=KelvinMai",
+      "note": "This video can solve my problem about typing speed and learning words app problem. He's using TS, context API, useReducer.",
+      "id": "q6rAdas"
+    },
+    {
+      "type": "Read",
+      "content": "https://www.linkedin.com/pulse/your-9-5-pays-bills-6-12-builds-you-fck-money-tim-denning/",
+      "note": "Nuoroda apie pinigų suvokimą",
+      "id": "bNPZ8G5"
+    }
+  ]
+}
