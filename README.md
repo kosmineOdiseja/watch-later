@@ -14,9 +14,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Simple: copy the URL of the article, or video, and paste it into "Content", then fill type as you want: "youtube video" or "Read", then add some note. What you found there interesting, or what problem your content solves. e.g. "Interesting approach for styled components."  
 
 ## tech stack: 
-..* React Js [React JS](https://reactjs.org/)
-..* Json-server [JSON Server](https://www.npmjs.com/package/json-server)
-..* concurrently [Concurrently](https://www.npmjs.com/package/concurrently)
+* React Js [React JS](https://reactjs.org/)
+* Json-server [JSON Server](https://www.npmjs.com/package/json-server)
+* concurrently [Concurrently](https://www.npmjs.com/package/concurrently)
 
 
 Simple: copy URL of article, video, and paste into "Content", then fill type: " youtube video, or Read", then add some note: "What you found there interesting, or what problem your content solves." 
