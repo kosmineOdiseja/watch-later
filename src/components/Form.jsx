@@ -77,7 +77,7 @@ const handleSubmit = (e) => {
 }
 
 export default Form
-const ButtonSend = styled(Button)`
+const ButtonSend = styled.button`
 	margin: 2rem;
 	background: #796d79;
 
