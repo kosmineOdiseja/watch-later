@@ -15,9 +15,9 @@ const ContentItem = ({ item }) => {
 		<button onClick={() => handleDelete(item.id)} > 
 			<FaTimes color="purple" />
 		</button>
-		<button >
+		{/* <button >
 			<FaBeer color="purple" />
-		</button>
+		</button> */}
 
 		<Header> { item.content } </Header>
 		<Note> { item.note } </Note>

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Button = ({tipas, children}) => {
-	console.log(typeof tipas, 'this is tipas ')
+	// console.log(typeof tipas, 'this is tipas ')
   return (
 	<ButtonFrame type={tipas}>
 		{children}
@@ -14,7 +14,7 @@ export default Button
 
 const ButtonFrame = styled.div`
 	  margin: 2rem;
-	  background: purple;
+	  background: #796d79;
 	  border-radius: 5px;
 	  width: 15vw;
 	  height: 4vh;

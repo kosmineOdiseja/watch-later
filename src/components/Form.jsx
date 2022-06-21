@@ -9,34 +9,9 @@ const Form = () => {
 	const [ type, setType ] = useState('')
 	const [ content, setContent] = useState('')
 	const [ note, setNote ] = useState('')
-
-
+	
 	const { handleAdd } = useContext(TodoContext)
-	// const [ array, setArray] = useState([
-	// 	{
-	// 		type: '',
-	// 		content: '',
-	// 		note: ''
-	// 	}
-	// ])
 
-// const handleChange = (e) => {
-// 		if ( e.target.note === true ) {
-// 				setArray(e.target.value)
-// 			} else if (e.target.name === 'content' ) {
-// 				array.content(e.target.value)
-// 			} else { 
-// 				array.note(e.target.value)
-// 			}
-// 			// if ( e.target.name === 'content' ) {
-// 		// 		setContent(e.target.defaultValue)
-// 		// 	}
-// 		// 	if ( e.target.name === 'note' ) {
-// 		// 		setNote(e.target.defaultValue)
-// 		// 	}
-// 		setArray(e.target.value)
-// 		console.log(array, 'this is type ')
-// }
 const handleNote = (e) => {
 	setNote(e.target.value)
 }
@@ -47,9 +22,7 @@ const handleContent = (e) => {
 	setContent(e.target.value)
 }
 
-// console.log(type)
-// console.log(note);
-// console.log(content);
+
 
 const handleSubmit = (e) => {
 	e.preventDefault()
@@ -95,7 +68,7 @@ const handleSubmit = (e) => {
 			</div>
 			<div>
 				{/* <Button type='submit' />  */}
-				<button tipas='submit'> siust </button>
+				<ButtonSend tipas='submit'> siųsti </ButtonSend>
 			</div>
 
 		</FormWrapper>	
@@ -104,6 +77,25 @@ const handleSubmit = (e) => {
 }
 
 export default Form
+const ButtonSend = styled(Button)`
+	margin: 2rem;
+	background: #796d79;
+
+	border-radius: 5px;
+	width: 15vw;
+	height: 4vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: white;
+	cursor: pointer;
+	&:hover {
+		background: #8e44ad;
+	}
+`
 
 const FormWrapper = styled.form`
 	display: flex;
