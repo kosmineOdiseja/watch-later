@@ -1,9 +1,25 @@
-# Getting Started with Create React App
+
+# Hello, 
+
+The idea of this app is to stay focused when programming and stay problem-solving orientated or don't spam you with a useless message when you send some link to your family member or friend and write:  "ignore, this it's for me. I don't want to lose, I plan to watch it later..."
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-![watch-later](https://user-images.githubusercontent.com/51315797/174608036-97d27cee-fa69-44c1-9874-7e039f2bb721.gif)
+![watch-later-app](https://user-images.githubusercontent.com/51315797/174608036-97d27cee-fa69-44c1-9874-7e039f2bb721.gif)
 
 
+# How to use it?
+
+Simple: copy the URL of the article, or video, and paste it into "Content", then fill type as you want: "youtube video" or "Read", then add some note. What you found there interesting, or what problem your content solves. e.g. "Interesting approach for styled components."  
+
+## tech stack: 
+..* React Js [React JS](https://reactjs.org/)
+..* Json-server [JSON Server](https://www.npmjs.com/package/json-server)
+..* concurrently [Concurrently](https://www.npmjs.com/package/concurrently)
+
+
+Simple: copy URL of article, video, and paste into "Content", then fill type: " youtube video, or Read", then add some note: "What you found there interesting, or what problem your content solves." 
 ## Available Scripts
 
 In the project directory, you can run:
