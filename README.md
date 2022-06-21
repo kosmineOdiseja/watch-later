@@ -23,10 +23,11 @@ Simple: copy the URL of the article, or video, and paste it into "Content", then
 download repository or clone: 
 
 then install all dependencies 
-### 1 `npm i` 
+###  `npm i` 
 
-### 2 `npm run develop`
+###  `npm run develop`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+open server data from the db.json file [ http://localhost:5000/content]( http://localhost:5000/content)
